@@ -26,7 +26,7 @@ There are some arguments that can alter the local server behavior, specifically 
 
 * Proxy through a local `news-platform` instance; if you don't know what that is, it is likely you don't have it setup. `gulp develop --cms`
   * For the mobile version of the site, use `gulp develop --cms --mobile`.
-  * If your project has multiple pages, you can target a specific article ID with `gulp develop --cms --cms-id=123456`.
+  * If your project has multiple pages, you can target a specific article ID with `gulp develop --cms --cms-id=492887591`.
 
 There are number of commands via Gulp that can be helpful. Use the following to get a list of the available commands:
 
