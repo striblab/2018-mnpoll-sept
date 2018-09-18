@@ -2,7 +2,6 @@
  * Project specific styling.
  */
 
-
 .tease {
   @media (max-width: 767px) {
     margin-bottom:4em;
@@ -145,8 +144,7 @@ table.stacked-bar-graph {
     .five {
       width: 0%;
     }
-  }
-  // Kavanaugh
+  } // Kavanaugh
   &.day3a {
     .one {
       width: 40%;
@@ -170,6 +168,31 @@ table.stacked-bar-graph {
     }
     .four {
       width: 3%;
+    }
+  } // Attorney Gov
+  &.day4a {
+    .one {
+      width: 41%;
+    }
+    .two {
+      width: 36%;
+    }
+    .three {
+      width: 5%;
+    }
+    .four {
+      width: 18%;
+    }
+  } // Ellison
+  &.day4b {
+    .one {
+      width: 21%;
+    }
+    .two {
+      width: 22%;
+    }
+    .three {
+      width: 57%;
     }
   }
   .bar-1 {
