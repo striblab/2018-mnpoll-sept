@@ -19,6 +19,17 @@ ul {
   }
 }
 
+ul.day6 {
+  list-style-type: disc;
+  margin-left: 1.5em;
+  li {
+    margin-top: .5em;
+  }
+  @media (max-width: 767px) {
+    display: block;
+  }
+}
+
 a,
 a:visited {
   color: inherit;
@@ -193,6 +204,100 @@ table.stacked-bar-graph {
     }
     .three {
       width: 57%;
+    }
+  } // Trump
+  &.day5a {
+    .one {
+      width: 39%;
+    }
+    .two {
+      width: 56%;
+    }
+    .three {
+      width: 5%;
+    }
+  } // economy
+  &.day5b {
+    .one {
+      width: 48%;
+    }
+    .two {
+      width: 45%;
+    }
+    .three {
+      width: 7%;
+    }
+  } // financial situation
+  &.day5c {
+    .one {
+      width: 27%;
+    }
+    .two {
+      width: 16%;
+    }
+    .three {
+      width: 56%;
+    }
+    .four {
+      width: 1%;
+    }
+  } // truth
+  &.day5d {
+    .one {
+      width: 34%;
+    }
+    .two {
+      width: 59%;
+    }
+    .three {
+      width: 7%;
+    }
+  } // Mueller
+  &.day6a {
+    .one {
+      width: 53%;
+    }
+    .two {
+      width: 31%;
+    }
+    .three {
+      width: 16%;
+    }
+  } // media
+  &.day6b {
+    .one {
+      width: 29%;
+    }
+    .two {
+      width: 64%;
+    }
+    .three {
+      width: 7%;
+    }
+  } // impeached
+  &.day6ca {
+    .one {
+      width: 36%;
+    }
+    .two {
+      width: 49%;
+    }
+    .three {
+      width: 15%;
+    }
+  } // view
+  &.day6cb {
+    .one {
+      width: 29%;
+    }
+    .two {
+      width: 43%;
+    }
+    .three {
+      width: 27%;
+    }
+    .four {
+      width: 1%;
     }
   }
   .bar-1 {
